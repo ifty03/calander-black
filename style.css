@@ -1,0 +1,75 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two:ital@1&family=Poppins:wght@500&family=Rokkitt&display=swap");
+
+/* important */
+
+body {
+  background-color: #19181a;
+}
+header {
+  height: 70px;
+  background-color: #7047eb;
+}
+section {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-gap: 5px;
+
+  background-color: #282729;
+  margin-top: 30px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.date {
+  /* background-color: pink; */
+  font-size: 20px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  color: aliceblue;
+}
+.date:hover {
+  background-color: #7047eb;
+}
+.week {
+  color: aliceblue;
+  font-size: 15px;
+  height: 30px;
+  width: 40px;
+  /* background-color: rgb(255, 146, 162); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.week:hover {
+  /* background-color: #7047eb; */
+  border: 3px solid #7047eb;
+  height: 23px;
+  width: 34px;
+}
+#holiday {
+  background-color: #3d3d41;
+}
+.month {
+  color: aliceblue;
+  background-color: #2b2a2c;
+  margin-right: 200px;
+  padding: 6px 17px;
+  border-radius: 5px;
+  /* font-family: "Rokkitt", serif; */
+  font-size: 20px;
+}
+.year {
+  color: #7047eb;
+}
